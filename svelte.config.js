@@ -17,7 +17,11 @@ const config = {
 		
 		//alias
 		alias: {
-			$lib: "./src/lib"
+			$lib: "./src/lib",
+			$stores: "./src/stores",
+			$services: "./src/services",
+			$usecases: "./src/usecases",
+			$models: "./src/models",
 		}
 	}
 };
