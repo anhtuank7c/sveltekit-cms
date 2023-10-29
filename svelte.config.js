@@ -14,14 +14,14 @@ const config = {
 		adapter: adapter({
 			regions: ['sin1']
 		}),
-		
+
 		//alias
 		alias: {
-			$lib: "./src/lib",
-			$stores: "./src/stores",
-			$services: "./src/services",
-			$usecases: "./src/usecases",
-			$models: "./src/models",
+			$lib: './src/lib',
+			$stores: './src/stores',
+			$services: './src/services',
+			$usecases: './src/usecases',
+			$models: './src/models'
 		}
 	}
 };
